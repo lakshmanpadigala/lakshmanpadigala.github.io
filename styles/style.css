@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 10px 30px 30px 30px;
+  text-align: center;
+}
+
+.header {
+  background: bisque;
+  align-content: center;
+  display: table;
+  width: 100%;
+  /* margin: 10px auto; */
+}
+.header ul{
+  float: left;
+  width: fit-content;
+}
+ul#headList li {
+  display: inline;
+  
+}
+@media screen and (max-width:500px) {
+  ul#headList li {
+    display: list-item;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.content {
+  padding: 20px;
+}
+
+
+
+
+/*
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+*/
+a.nav:link, a.nav.visited {
+  background-color: #d6b915;
+  color: white;
+  padding: 4px 5px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+a.nav:hover {
+  background-color: red;
+  border-radius: 10px;
+}
+
+a.ins:link, a.ins:visited{
+  text-decoration:none;
+}
+
+
+a.ins:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  height: fit-content;
+  padding: 10px;
+  background: #ddd;
+}
+#photo{
+  border: 1px solid #000;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+#photo:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
